@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>marketingwhiz.com — Premium Domain For Sale</title>
+  <meta name="description" content="marketingwhiz.com — premium domain ideal for marketing agencies, SaaS martech, analytics platforms, growth consultancies, and creative studios. Submit an offer to purchase." />
+  <meta property="og:title" content="marketingwhiz.com — Premium Domain For Sale" />
+  <meta property="og:description" content="marketingwhiz.com — premium domain for agencies, martech, growth tools and creative consultancies. Contact domain@marketingwhiz.com" />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0b2540" />
+  <link rel="icon" href="/favicon.ico" />
+
+  <style>
+    :root{
+      --max-width:980px;
+      --content-width:760px;
+      --radius:14px;
+
+      /* Chosen look: bold, creative & data-driven */
+      --bg-1: #081226;    /* deep navy */
+      --bg-2: #0f2b44;    /* tealish */
+      --burst-1: #ff6b9a; /* magenta creative accent */
+      --burst-2: #6bd6ff; /* cyan analytic accent */
+      --panel: #ffffff;
+      --muted: #7a8b96;
+      --text: #071827;
+      --cta-gradient: linear-gradient(90deg,#ff6b9a,#ffd36b,#6bd6ff);
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:36px 24px;
+      background:
+        radial-gradient(700px 300px at 12% 12%, rgba(107,214,255,0.06), transparent 12%),
+        radial-gradient(900px 400px at 88% 72%, rgba(255,107,154,0.05), transparent 12%),
+        linear-gradient(180deg, var(--bg-1) 0%, var(--bg-2) 100%);
+      color:var(--text);
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      overflow-x:hidden;
+      line-height:1.45;
+    }
+
+    /* Decorative marketing background:
+       - energetic bursts and floating icons (megaphone, chart, spark)
+       - subtle animated grid for data feel
+    */
+    .decor {
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      z-index:0;
+      mix-blend-mode: screen;
+    }
+
+    .burst {
+      position:absolute;
+      width:420px;
+      height:420px;
+      border-radius:50%;
+      filter: blur(60px);
+      opacity:0.14;
+      transform:translateZ(0);
+    }
+    .burst.b1 { left:6%; top:8%; background: radial-gradient(circle,#ff6b9a,transparent 45%); }
+    .burst.b2 { right:6%; bottom:8%; background: radial-gradient(circle,#6bd6ff,transparent 45%); opacity:0.12; }
+
+    .grid-pattern {
+      position:fixed;
+      inset:0;
+      background-image: linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px), linear-gradient(180deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 36px 36px, 36px 36px;
+      opacity:0.045;
+      pointer-events:none;
+    }
+
+    /* small floating icons created via inline SVG backgrounds */
+    .icon {
+      position:absolute;
+      width:56px;
+      height:56px;
+      opacity:0.10;
+      filter: drop-shadow(0 6px 18px rgba(0,0,0,0.25));
+      will-change: transform, opacity;
+    }
+    .icon.megaphone { left:12%; top:40%; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23ffffff" fill-opacity="0.9" d="M3 11v2h2l4 3V8L5 11H3zm15-6.5L8 6v12l10-1.5V4.5z"/></svg>'); background-size:contain; background-repeat:no-repeat; transform:rotate(-8deg); }
+    .icon.chart { right:14%; top:18%; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23ffffff" fill-opacity="0.9" d="M3 3v18h18V3H3zm4 14H5V9h2v8zm4 0H9V5h2v12zm4 0h-2v-6h2v6z"/></svg>'); background-size:contain; background-repeat:no-repeat; transform:rotate(6deg); }
+    .icon.spark { left:30%; bottom:22%; background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23ffffff" fill-opacity="0.9" d="M12 2l1.8 4.6L18 9l-4.2 2.4L12 16l-1.8-4.6L6 9l4.2-2.4L12 2z"/></svg>'); background-size:contain; background-repeat:no-repeat; transform:rotate(14deg); }
+
+    /* simple slow-floating animation */
+    @keyframes floaty {
+      0% { transform: translateY(0) rotate(0deg); opacity:0.9; }
+      50% { transform: translateY(-18px) rotate(6deg); opacity:1; }
+      100% { transform: translateY(0) rotate(0deg); opacity:0.9; }
+    }
+    .icon { animation: floaty 9s ease-in-out infinite; }
+
+    .container{
+      width:100%;
+      max-width:var(--max-width);
+      padding:36px;
+      border-radius:18px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.98), rgba(250,252,254,0.98));
+      box-shadow: 0 26px 80px rgba(3,10,18,0.35);
+      border: 1px solid rgba(3,10,18,0.04);
+      position:relative;
+      z-index:2;
+    }
+
+    header{
+      display:flex;
+      gap:18px;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:22px;
+    }
+
+    .brand{ display:flex; gap:16px; align-items:center; }
+    .logo{
+      width:76px;
+      height:76px;
+      border-radius:12px;
+      background: linear-gradient(135deg,#0f2b44,#082136);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      color:#fff;
+      font-weight:800;
+      font-size:20px;
+      letter-spacing:0.6px;
+      box-shadow: 0 12px 36px rgba(3,10,18,0.45);
+      flex-shrink:0;
+    }
+
+    h1{ margin:0; font-size:28px; color:#081827; }
+    p.lead{ margin:6px 0 0; color:var(--muted); font-size:14px; }
+
+    .grid{
+      display:grid;
+      grid-template-columns: 1fr 360px;
+      gap:26px;
+      align-items:start;
+    }
+
+    .hero {
+      background: linear-gradient(90deg, rgba(255,107,154,0.03), rgba(107,214,255,0.02));
+      padding:16px;
+      border-radius:12px;
+      color:var(--text);
+      margin-bottom:16px;
+      border:1px solid rgba(3,10,18,0.04);
+    }
+
+    .panel {
+      background: var(--panel);
+      padding:22px;
+      border-radius:14px;
+      box-shadow: 0 8px 26px rgba(3,10,18,0.06);
+      border: 1px solid rgba(3,10,18,0.02);
+      max-width:var(--content-width);
+    }
+
+    h2{ margin-top:0; font-size:20px; color:var(--text); }
+    .features ul{ margin:0; padding-left:18px; color:var(--muted); }
+    .features li{ margin-bottom:10px; }
+
+    .cta-row{ display:flex; gap:12px; margin-top:18px; flex-wrap:wrap; align-items:center; }
+    .btn{
+      display:inline-flex;
+      gap:10px;
+      align-items:center;
+      padding:10px 16px;
+      border-radius:999px;
+      font-weight:700;
+      cursor:pointer;
+      text-decoration:none;
+      border:0;
+    }
+    .btn-primary{
+      background: var(--cta-gradient);
+      color:#071827;
+      box-shadow: 0 10px 30px rgba(3,10,18,0.12);
+    }
+    .btn-ghost{
+      background:transparent;
+      border:1px solid rgba(3,10,18,0.06);
+      color:var(--muted);
+    }
+
+    .price { margin-top:14px; font-weight:700; color:var(--text); font-size:16px; }
+    .muted-small { color:var(--muted); font-size:13px; margin-top:6px; }
+
+    .contact-card{
+      position:sticky;
+      top:32px;
+      align-self:start;
+      background: linear-gradient(180deg, rgba(255,255,255,0.995), rgba(255,255,255,0.98));
+      padding:18px;
+      border-radius:12px;
+      border:1px solid rgba(3,10,18,0.03);
+      box-shadow: 0 8px 26px rgba(3,10,18,0.035);
+      max-width:360px;
+    }
+
+    .contact-card h3{ margin:0 0 8px 0; font-size:16px; color:var(--text); }
+    .contact-email, .contact-email a{
+      white-space:nowrap;
+      display:inline-block;
+      font-weight:700;
+      color:#0f5b63;
+      word-break: normal;
+      font-size:0.98rem;
+      text-decoration:none;
+    }
+
+    form label{ display:block; font-size:13px; color:var(--muted); margin-bottom:6px; }
+    form input, form textarea {
+      width:100%;
+      padding:10px 12px;
+      border-radius:10px;
+      border:1px solid rgba(3,10,18,0.06);
+      background:#fff;
+      color:var(--text);
+      font-size:14px;
+      margin-bottom:12px;
+    }
+    form textarea{ min-height:110px; resize:vertical; }
+
+    footer{ margin-top:18px; color:var(--muted); font-size:13px; text-align:center; }
+
+    @media (max-width:980px){
+      .grid{ grid-template-columns: 1fr 320px; gap:20px; }
+      .container{ padding:28px; }
+      .logo{ width:64px; height:64px; }
+      h1{ font-size:24px; }
+    }
+
+    @media (max-width:640px){
+      .grid{ grid-template-columns: 1fr; }
+      .decor .burst { display:none; }
+      .icon { display:none; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"WebSite",
+        "url":"https://marketingwhiz.com",
+        "name":"marketingwhiz.com",
+        "description":"marketingwhiz.com — premium domain for marketing agencies, martech, growth studios, and creative consultancies."
+      },
+      {
+        "@type":"ContactPoint",
+        "contactType":"sales",
+        "email":"domain@marketingwhiz.com"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <div class="decor" aria-hidden="true">
+    <div class="burst b1"></div>
+    <div class="burst b2"></div>
+    <div class="grid-pattern"></div>
+
+    <div class="icon megaphone" aria-hidden="true"></div>
+    <div class="icon chart" aria-hidden="true"></div>
+    <div class="icon spark" aria-hidden="true"></div>
+  </div>
+
+  <main class="container" role="main" aria-labelledby="main-heading">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">MW</div>
+        <div>
+          <h1 id="main-heading">marketingwhiz.com</h1>
+          <p class="lead">Premium domain for marketing agencies, growth teams, martech products, and creative consultancies.</p>
+        </div>
+      </div>
+
+      <div style="text-align:right">
+        <div style="color:var(--muted);font-size:13px">For inquiries</div>
+        <div class="contact-email"><a href="mailto:domain@marketingwhiz.com">domain@marketingwhiz.com</a></div>
+      </div>
+    </header>
+
+    <div class="hero" role="note" aria-live="polite">
+      <p>
+        MarketingWhiz.com combines authority and personality — ideal for brands that promise smart growth, creative campaigns and data-led marketing outcomes.
+      </p>
+    </div>
+
+    <section class="grid" aria-label="Main content">
+      <div>
+        <article class="panel" aria-labelledby="why-title">
+          <h2 id="why-title">Why marketingwhiz.com?</h2>
+          <p class="lead">A concise, brandable .com that communicates expertise and creativity. Great for agencies, SaaS martech, growth consultancies, analytics dashboards and education platforms.</p>
+
+          <div class="features" style="margin-top:12px">
+            <ul>
+              <li>Strong, memorable name — fits B2B and B2C marketing products and services</li>
+              <li>Useful for creative agencies, marketing tools, analytics platforms and growth teams</li>
+              <li>Marketable across content, social campaigns, and enterprise sales channels</li>
+            </ul>
+
+            <p style="margin-top:12px"><a href="https://corelli.com/domains.html" style="color:#ff6b9a">How to Choose A Domain Name</a></p>
+          </div>
+
+          <div class="cta-row" role="group" aria-label="Actions">
+            <a class="btn btn-primary" href="#" id="inquireBtn">Make an Offer</a>
+            <a class="btn btn-ghost" href="mailto:domain@marketingwhiz.com?subject=Domain%20Offer%20-%20marketingwhiz.com">Email Now</a>
+          </div>
+
+          <div class="price">Domain: marketingwhiz.com</div>
+          <div class="muted-small">Serious offers only. Transfer via escrow recommended for security and trust.</div>
+        </article>
+
+        <article class="panel" style="margin-top:18px" aria-labelledby="about-title">
+          <h3 id="about-title" style="margin-top:0">About this domain</h3>
+          <p class="lead">MarketingWhiz.com is ideal for businesses that promise marketing expertise and measurable results — from boutique agencies to martech startups and educational publishers.</p>
+
+          <ul style="color:var(--muted);margin-top:12px">
+            <li>Great for agencies, growth teams, analytics platforms and marketing studios</li>
+            <li>Useful for training programs, SaaS marketing tools, and branded consultancies</li>
+            <li>Transfer-ready — escrow recommended to ensure a secure transaction</li>
+          </ul>
+        </article>
+      </div>
+
+      <aside class="contact-card" aria-label="Contact & offer">
+        <div>
+          <h3 style="margin-top:0">Contact & Offer</h3>
+          <p style="margin-top:6px;color:var(--muted)">Submit an offer — this form will open your email client with the details prefilled. Or email <a href="mailto:domain@marketingwhiz.com" class="contact-email">domain@marketingwhiz.com</a>.</p>
+
+          <form id="inquiryForm" onsubmit="handleSubmit(event)" aria-label="Domain offer form">
+            <label for="name">Your name</label>
+            <input id="name" name="name" type="text" placeholder="Jane Doe" required />
+
+            <label for="email">Your email</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="offer">Your offer (USD)</label>
+            <input id="offer" name="offer" type="text" placeholder="Enter your offer (USD)" required />
+
+            <label for="company">Company (optional)</label>
+            <input id="company" name="company" type="text" placeholder="Your company or organization" />
+
+            <label for="country">Country</label>
+            <input id="country" name="country" type="text" placeholder="Your country" required />
+
+            <label for="phone">Phone number (optional)</label>
+            <input id="phone" name="phone" type="tel" />
+
+            <label for="message">Message (questions, timeline, escrow preference)</label>
+            <textarea id="message" name="message" placeholder="Hi — I'm submitting an offer for marketingwhiz.com. Please share transfer instructions and next steps."></textarea>
+
+            <button class="btn btn-primary" type="submit" style="width:100%; margin-top:6px">Send Offer</button>
+          </form>
+
+          <footer style="margin-top:10px; text-align:left; color:var(--muted); font-size:13px">
+            Prefer a direct email? <a href="mailto:domain@marketingwhiz.com" style="color:#0f5b63" class="contact-email">domain@marketingwhiz.com</a>
+          </footer>
+        </div>
+      </aside>
+    </section>
+
+    <footer>
+      &copy; 2025 marketingwhiz.com. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // Compose a mailto: URL from form contents to open the user's email client.
+    function handleSubmit(e){
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const offer = document.getElementById('offer').value.trim();
+      const company = document.getElementById('company').value.trim();
+      const country = document.getElementById('country').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+
+      const subject = encodeURIComponent('Domain Offer - marketingwhiz.com');
+      const bodyText =
+        `Name: ${name}\n` +
+        `Email: ${email}\n` +
+        `Company: ${company || '(not provided)'}\n` +
+        `Offer (USD): ${offer}\n` +
+        `Country: ${country}\n` +
+        `Phone: ${phone || '(not provided)'}\n\n` +
+        `Message:\n${message}\n\n---\nSent from marketingwhiz.com offer form`;
+
+      const body = encodeURIComponent(bodyText);
+      const mailto = `mailto:domain@marketingwhiz.com?subject=${subject}&body=${body}`;
+      window.location.href = mailto;
+    }
+
+    document.getElementById('inquireBtn').addEventListener('click', function(e){
+      e.preventDefault();
+      const form = document.getElementById('inquiryForm');
+      if(window.innerWidth < 900){
+        form.scrollIntoView({behavior:'smooth', block:'center'});
+        form.querySelector('input').focus();
+      } else {
+        const subject = encodeURIComponent('Domain Offer - marketingwhiz.com');
+        const body = encodeURIComponent('Hi — I would like to make an offer for marketingwhiz.com. Please reply with transfer instructions and next steps.');
+        window.location.href = `mailto:domain@marketingwhiz.com?subject=${subject}&body=${body}`;
+      }
+    });
+  </script>
+</body>
+</html>
